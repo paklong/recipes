@@ -15,3 +15,7 @@
 .recipes-list {
     font-size: 20px;
 }
+
+.recipes-items {
+    display: inline;
+}

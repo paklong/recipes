@@ -16,7 +16,7 @@
     font-size: 20px;
     border: 5px solid blue;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -26,5 +26,6 @@
     /* flex: ; */
     border: 5px dotted orange;
     margin: 5px;
-    flex: 0 1 auto;
+    flex: 0 1 25%;
+    text-align: center;
 }

@@ -19,13 +19,14 @@
     justify-content: space-evenly;
     margin: 0;
     padding: 0;
+    gap: 5px;
     list-style: none;
 }
 
 .recipes-list  > * {
     /* flex: ; */
     border: 5px dotted orange;
-    margin: 5px;
+    /* margin: 5px */
     flex: 0 1 25%;
     text-align: center;
 }

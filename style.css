@@ -14,8 +14,17 @@
 
 .recipes-list {
     font-size: 20px;
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.recipes-items {
-    display: inline;
+.recipes-list  > * {
+    /* flex: ; */
+    border: 5px dotted orange;
+    margin: 5px;
+    flex: 0 1 auto;
 }
